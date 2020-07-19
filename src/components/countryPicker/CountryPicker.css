@@ -1,0 +1,10 @@
+@import "~antd/dist/antd.css";
+.select {
+  width: 300px;
+}
+@media screen and (max-width: 500px) {
+  .select {
+    width: 90%;
+    margin-left: 10px;
+  }
+}
